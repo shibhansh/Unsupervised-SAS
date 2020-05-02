@@ -20,7 +20,7 @@ This repo contains the source code of the AMR (Abstract Meaning Representation) 
 $ python generate_amr_file.py --story_file stories.txt --summary_file target_summaries.txt
 ```
 
-## Summarize
+## Summarize -
 * Run `python2.7 pipeline.py --input_file path_to_file --dataset name_of_the_dataset` to generate the summary amrs
 * `pipeline.py` uses appended [AMR Library](https://github.com/shibhansh/amr_library) to perform all the functions
 
