@@ -7,14 +7,14 @@ This repo contains the source code of the AMR (Abstract Meaning Representation) 
 * To get the gold-standard AMR parses you need to get membership on the Linguistic Data Consortium
 
 ## Requirements -
-* [AMR Parser] - To convert text to its AMR. You can use this [AMR Parser](https://github.com/RikVN/AMR).
-* [AMR Generator] - To convert AMRs to text. You can use this [AMR Generator](https://github.com/sinantie/NeuralAmr).
-* [AMR library](https://github.com/shibhansh/amr_library) - To obtain AMR.
+* [AMR Parser](https://github.com/RikVN/AMR) - To convert text to its AMR.
+* [AMR Generator](https://github.com/sinantie/NeuralAmr) - To convert AMRs to text.
+* [AMR library](https://github.com/shibhansh/amr_library) - To obtain AMR for sentences.
 * [ROUGE](https://www.aclweb.org/anthology/W04-1013.pdf) - To evaluate the quality.
 
 ## Preprocessing - 
-* Convert individual sentence to one lined AMR using the [AMR Parser]
-* Combine the sentences to get the files in the format similar to the proxy report section of the AMR bank
+* Convert individual sentence to one lined AMR using the [AMR Parser](https://github.com/RikVN/AMR)
+* Combine the sentences to get the files in the format similar to the proxy report section of the [AMR bank](https://github.com/shibhansh/amr_library)
 * Run to convert to the required format
 ```sh
 $ python generate_amr_file.py --story_file stories.txt --summary_file target_summaries.txt
@@ -22,12 +22,12 @@ $ python generate_amr_file.py --story_file stories.txt --summary_file target_sum
 
 ## Summarize
 * Run `python2.7 pipeline.py --input_file path_to_file --dataset name_of_the_dataset` to generate the summary amrs
-* `pipeline.py` uses appended [amr library](https://github.com/shibhansh/amr_library) to perform all the functions
+* `pipeline.py` uses appended [AMR Library](https://github.com/shibhansh/amr_library) to perform all the functions
 
 ## Postprocessing - 
 * Convert individual generated summary AMRs back to sentences using the [AMR Generator](https://github.com/sinantie/NeuralAmr)
 * Put the generated sentences file `predicted_summaries.txt` in `/auxiliary` 
-* Combine sentences to produce final summary `python merge_summary_sentences.py`
+* Combine sentences to produce final summary with `python merge_summary_sentences.py`
 * Run [ROUGE](https://www.aclweb.org/anthology/W04-1013.pdf) to evaluate
 
 ## Recommended Citation
@@ -51,4 +51,4 @@ $ python generate_amr_file.py --story_file stories.txt --summary_file target_sum
 
 ## Main Link
 * [ACL-SRW 2018 Paper](https://www.aclweb.org/anthology/P18-3011.pdf)
-* [arXiv PrePrint] (https://arxiv.org/pdf/1706.01678.pdf)
+* [arXiv PrePrint](https://arxiv.org/pdf/1706.01678.pdf)
