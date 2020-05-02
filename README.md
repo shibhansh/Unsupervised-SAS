@@ -1,6 +1,6 @@
 # Unsupervised Semantic Abstractive Summarization
 
-This repo contains the source code of the AMR (Abstract Meaning Representation) based approach for abstractive summarization. You can find all the details in the following [here] - 
+This repo contains the source code of acl-srw 2020 work on the AMR (Abstract Meaning Representation) based approach for abstractive summarization i.e. source code of [**Unsupervised Semantic Abstractive Summarization**](https://www.aclweb.org/anthology/P18-3011.pdf) paper. You can find all the details in the following [here] - 
 
 ## Datasets - 
 * Any summarization dataset
