@@ -29,7 +29,26 @@ $ python generate_amr_file.py --story_file stories.txt --summary_file target_sum
 * Combine sentences to produce final summary `python merge_summary_sentences.py`
 * Run ROUGE to evaluate
 
-[AMR Parser]: <https://github.com/RikVN/AMR>
-[AMR Generator]: <https://github.com/sinantie/NeuralAmr>
-[amr library]: <https://github.com/shibhansh/amr_library>
-[here]: <https://arxiv.org/abs/1706.01678>
+##Recommended Citation
+```sh
+@inproceedings{dohare-etal-2018-unsupervised,
+    title = "Unsupervised Semantic Abstractive Summarization",
+    author = "Dohare, Shibhansh  and
+      Gupta, Vivek  and
+      Karnick, Harish",
+    booktitle = "Proceedings of {ACL} 2018, Student Research Workshop",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P18-3011",
+    doi = "10.18653/v1/P18-3011",
+    pages = "74--83",
+    abstract = "Automatic abstractive summary generation remains a significant open problem for natural language processing. In this work, we develop a novel pipeline for Semantic Abstractive Summarization (SAS). SAS, as introduced by Liu et. al. (2015) first generates an AMR graph of an input story, through which it extracts a summary graph and finally, creates summary sentences from this summary graph. Compared to earlier approaches, we develop a more comprehensive method to generate the story AMR graph using state-of-the-art co-reference resolution and Meta Nodes. Which we then use in a novel unsupervised algorithm based on how humans summarize a piece of text to extract the summary sub-graph. Our algorithm outperforms the state of the art SAS method by 1.7{\%} F1 score in node prediction.",
+}
+```
+
+* [AMR Parser]: <https://github.com/RikVN/AMR>
+* [AMR Generator]: <https://github.com/sinantie/NeuralAmr>
+* [amr library]: <https://github.com/shibhansh/amr_library>
+* [paper]: <https://www.aclweb.org/anthology/P18-3011.pdf>
