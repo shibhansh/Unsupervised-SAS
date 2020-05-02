@@ -48,7 +48,7 @@ $ python generate_amr_file.py --story_file stories.txt --summary_file target_sum
 }
 ```
 
-* [AMR Parser]: <https://github.com/RikVN/AMR>
-* [AMR Generator]: <https://github.com/sinantie/NeuralAmr>
-* [amr library]: <https://github.com/shibhansh/amr_library>
-* [paper]: <https://www.aclweb.org/anthology/P18-3011.pdf>
+* [AMR Parser](https://github.com/RikVN/AMR)
+* [AMR Generator](https://github.com/sinantie/NeuralAmr)
+* [amr library](https://github.com/shibhansh/amr_library)
+* [paper](https://www.aclweb.org/anthology/P18-3011.pdf)
